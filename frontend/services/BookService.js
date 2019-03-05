@@ -3,7 +3,7 @@ import { model } from "mongoose";
 class BookService{
 
     constructor(){
-        this.URI = 'http://localhost:3000/api/books';
+        this.URI = '/api/books';
     }
 
     async getBooks(){
